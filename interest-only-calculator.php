@@ -15,7 +15,7 @@
 function interest_only_calculator()
 {
     ob_start();
-    wp_enqueue_style('custom-styles', plugin_dir_url(__FILE__) . 'css/custom-styles.css');
+    wp_enqueue_style('custom-styles', plugin_dir_url(__FILE__) . 'css/custom-styles.css', [], '1.0.1');
     echo "
         <div class=\"interestCalculator calx\">
             <div class=\"interestCalculatorForm\">
